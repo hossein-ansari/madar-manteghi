@@ -1,0 +1,21 @@
+{
+  "name": "truth-table-generator",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@types/react": "^19.1.4",
+    "@types/react-dom": "^19.1.5",
+    "preact": "^10.26.5"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.10.1",
+    "typescript": "~5.8.3",
+    "vite": "^6.3.5"
+  }
+}
