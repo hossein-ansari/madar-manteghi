@@ -15,6 +15,10 @@ body, html {
   font-family: Tahoma, 'Vazirmatn', 'IRANSans', Arial, sans-serif;
   direction: rtl;
   background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .container {
@@ -25,6 +29,7 @@ body, html {
   font-family: inherit;
   color: var(--text-color);
   text-align: center;
+
 }
 
 h1, h2, h3, p, label, th, td, button {
@@ -78,7 +83,6 @@ input, select {
   border: 1px solid var(--border-color);
   border-radius: 4px;
   font-size: 1rem;
-  background-color: var(--bg-white);
   transition: border-color 0.2s;
   width: 300px;
   text-align: center;
@@ -163,16 +167,16 @@ tr:hover {
 }
 
 tr.highlighted {
-  background-color: #3a0000 !important;
+  background-color: #cacaca !important;
 }
 
 tr.highlighted:hover {
-  background-color: #3a0000 !important;
+  background-color: #969696 !important;
 }
 
 tr.highlighted td.output {
   background-color: var(--primary-color);
-  color: #3a0000  ;
+  color: #cacaca  ;
 }
 
 .implemented-circuit {
@@ -182,6 +186,7 @@ tr.highlighted td.output {
 }
 
 svg {
+  padding-bottom: 2rem;
   display: block;
   margin: 0 auto;
 }
