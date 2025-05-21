@@ -1,9 +1,9 @@
 {
-  "name": "truth-table-generator",
+  "name": "madar-manteghi",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Hossein-ansari.github.io/truth-table-generator/",
+  "homepage": "https://Hossein-ansari.github.io/madar-manteghi/",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",

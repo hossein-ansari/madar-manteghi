@@ -3,10 +3,8 @@
 import { defineConfig } from 'vite'
 import preact from '@preact/preset-vite'
 
+// https://vitejs.dev/config/
 export default defineConfig({
-  base: '/madar-manteghi/',
   plugins: [preact()],
-  build: {
-    outDir: '../docs' // note: go up one level!
-  }
+  base: '/madar-manteghi/' // Add this line for GitHub Pages
 })
